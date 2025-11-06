@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "python-mastery-roadmap-final"
+version = "0.1.0"
+description = "Final repo for Python Mastery Roadmap"
+authors = ["Saurabh Asthana <iamsaurabhasthana@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
