@@ -18,65 +18,56 @@
 
 ## 🎯 **Roadmap Objective**
 
-| Area | Focus |
-|------|--------|
-| 🧩 **Foundations** | Python syntax, OOP, advanced concepts, algorithms |
-| ⚙️ **Backend Development** | FastAPI, Flask, Django, REST APIs |
-| 🧠 **AI/ML Development** | Scikit-learn, PyTorch, TensorFlow |
-| 🧰 **DevOps & CI/CD** | Docker, Pytest, GitHub Actions |
-| ☁️ **Cloud & Deployment** | AWS, Kubernetes, Serverless |
-| 🖥️ **Frontend Integration** | React, Vue, API communication |
-| 🏗️ **System Design** | Scaling, caching, messaging, patterns |
+Build real-world expertise across every layer of modern development. Follow the phases in order, click any phase to open detailed plan:
 
----
-
-## 🧭 **Learning Phases**
-
-| Phase | Title | Duration | Focus |
-|:-----:|:------|:----------|:-------|
-| 1 | 🐍 Python Fundamentals | 1–2 mo | Syntax, basics, scripting |
-| 2 | 🧱 OOP & Advanced Concepts | 1 mo | Classes, decorators, generators |
-| 3 | 📊 Data Structures & Algorithms | 2 mo | Problem-solving, complexity |
-| 4 | ⚙️ Web Backend Frameworks | 2 mo | Flask, FastAPI, Django |
-| 5 | 🖥️ Frontend Integration | 1 mo | React, Vue, API linking |
-| 6 | 🌐 REST APIs & Microservices | 2 mo | JWT, Async APIs |
-| 7 | 🤖 AI/ML & Data Science | 3 mo | ML, DL, model serving |
-| 8 | 🧰 DevOps & CI/CD | 2 mo | Docker, CI pipelines |
-| 9 | ☁️ Cloud & Containers | 2 mo | AWS, GKE, monitoring |
-| 10 | 🧠 System Design & Scaling | ∞ | Architecture, scaling |
+- 📘 [Phase 1 — Python Fundamentals](phases/01_python_fundamentals.md)
+- 📗 [Phase 2 — OOP & Advanced Concepts](phases/02_oop_advanced.md)
+- 📙 [Phase 3 — Data Structures & Algorithms](phases/03_data_structures_algorithms.md)
+- 📒 [Phase 4 — Web Backend Frameworks](phases/04_web_backend_frameworks.md)
+- 📘 [Phase 5 — Frontend Integration](phases/05_frontend_integration.md)
+- 📗 [Phase 6 — REST APIs & Microservices](phases/06_rest_apis_microservices.md)
+- 📙 [Phase 7 — AI/ML & Data Science](phases/07_ai_ml_data_science.md)
+- 📒 [Phase 8 — DevOps & CI/CD](phases/08_devops_ci_cd.md)
+- 📘 [Phase 9 — Cloud, Containers & Orchestration](phases/09_cloud_containers_k8s.md)
+- 📗 [Phase 10 — System Design & Scaling](phases/10_system_design_scaling.md)
 
 ---
 
 ## 🧩 **Capstone Projects**
 
-| Project | Description | Stack |
-|----------|--------------|--------|
-| 🧰 Command-line Tool | Build a pip-installable CLI | Python, Click |
-| 🌐 Web API Backend | REST API with DB integration | FastAPI, SQLAlchemy |
-| 🤖 AI/ML Model Serving | Train and serve ML models | Scikit-learn, FastAPI |
-| ☁️ Cloud Deployment Pipeline | Full CI/CD cloud pipeline | Docker, GitHub Actions |
-| 📊 Fullstack Dashboard | React + Python app | React, FastAPI, PostgreSQL |
+- [Project 1 — Command-line Tool](projects/project_1_cli_tool.md)  
+- [Project 2 — Web API App](projects/project_2_web_api.md)  
+- [Project 3 — ML Model Serving](projects/project_3_ml_model_api.md)  
+- [Project 4 — Cloud Deployment Pipeline](projects/project_4_cloud_pipeline.md)  
+- [Project 5 — Fullstack Dashboard](projects/project_5_fullstack_dashboard.md)  
 
 ---
 
-## 🧠 **Suggested Learning Flow**
-```text
-[1️⃣] Core Python → [2️⃣] OOP & Algorithms → [3️⃣] Backend APIs
-        ↓
-[4️⃣] DevOps + CI/CD → [5️⃣] ML + Cloud Deployment
-        ↓
-[6️⃣] System Design + Frontend Integration
+## 🧾 **Progress Journal**
+
+Keep your weekly notes in the [`journal/`](journal/) folder — add entries as you progress:
+- `journal/YYYY-MM-DD.md`
+
+---
+
+## 🔧 Local Setup (for this repo)
+
+This repo includes templates, small examples, and a minimal test so CI runs out-of-the-box.
+
+```bash
+# Install dev requirements (if using virtualenv)
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-dev.txt
+pytest -q
 ```
 
 ---
 
-## 🧑‍💻 **Author**
-**Saurabh Asthana**  
-🌩️ Cloud & DevOps Engineer | AI & HPC Enthusiast | Python Developer  
-📧 [iamsaurabhasthana@gmail.com](mailto:iamsaurabhasthana@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/saurabhasthana) • [GitHub](https://github.com/iamsaurabhasthana)
+## 🧑‍💻 Author
+**Saurabh Asthana** · iamsaurabhasthana@gmail.com
 
 ---
 
-## ⚖️ **License**
-MIT License — Free for personal and educational use.
+## ⚖️ License
+MIT
