@@ -2,7 +2,7 @@
   <img src="banner.png" alt="Python Mastery Roadmap Banner" width="900"/>
 </p>
 
-# 🐍 Python Mastery Roadmap — Final
+# 🐍 Python Mastery Roadmap
 
 **A complete, hands-on roadmap to master Python — from fundamentals to production systems.**
 
