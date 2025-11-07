@@ -37,9 +37,9 @@ By the end of this phase, you will:
 ### 🟢 **Beginner Level (1–20)**
 > *Focus: Syntax, Operators, Loops, Strings, Lists, Conditionals*
 
-| # | Program | Concept |
-|---|----------|----------|
-| 1 | Hello World | Basic output |
+| # | Program | Concept | Links |
+|---|----------|----------|------|
+| 1 | Hello World | Basic output | [Link](phase-1/hello-world.py) |
 | 2 | Add Two Numbers | Arithmetic operators |
 | 3 | Swap Two Variables | Variable manipulation |
 | 4 | Check Even or Odd | Conditional |
