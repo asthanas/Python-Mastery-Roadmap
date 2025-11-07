@@ -24,22 +24,6 @@
 - [Phase 9 — Cloud, Containers & Orchestration](phases/09_cloud_containers_k8s.md)
 - [Phase 10 — System Design & Scaling](phases/10_system_design_scaling.md)
 
-## Quickstart (local)
-```bash
-python -m venv .venv
-source .venv/bin/activate  # mac/linux
-.venv\Scripts\activate    # windows (powershell)
-pip install -r requirements-dev.txt
-pytest -q
-```
-
-## Included starter templates
-- Minimal FastAPI app at `src/app/main.py`
-- Multi-stage `Dockerfile`
-- `Makefile` for common tasks
-- CI workflow at `.github/workflows/python-ci.yml`
-- Sample package `src/sample_pkg` and tests
-
 ---
 Author: **Saurabh Asthana** — iamsaurabhasthana@gmail.com
 License: MIT
