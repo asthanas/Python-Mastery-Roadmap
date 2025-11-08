@@ -40,8 +40,8 @@ By the end of this phase, you will:
 | # | Program | Concept | Links |
 |---|----------|----------|------|
 | 1 | Hello World | Basic output | [Link](phase-1/hello-world.py) |
-| 2 | Add Two Numbers | Arithmetic operators |
-| 3 | Swap Two Variables | Variable manipulation |
+| 2 | Add Two Numbers | Arithmetic operators |[Link](phase-1/add.py) |
+| 3 | Swap Two Variables | Variable manipulation |[Link](phase-1/swap-var.py) |
 | 4 | Check Even or Odd | Conditional |
 | 5 | Largest of Three Numbers | Nested `if` |
 | 6 | Factorial of a Number | Looping |
