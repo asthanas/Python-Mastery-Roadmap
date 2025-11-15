@@ -1,0 +1,127 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPsCJzyzdMbblDIiU8elq6t",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/asthanas/Python-Mastery-Roadmap/blob/main/phases/phase-1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Create the variables n, r, p and assign them values 10, 5, and 100 respectively. Then\n",
+        "evaluate the following expression in the Python console.\n",
+        "𝐴 = 𝑝 (1 + 𝑟/ 100)^n"
+      ],
+      "metadata": {
+        "id": "fAhQQzfAF5su"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jJ1sP7-bF3vc",
+        "outputId": "e8f7e8ae-d64b-4e38-e456-d35fa1ff49da"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the value of Radius : 10\n",
+            "Enter the value of n : 10\n",
+            "Enter the value of p : 2\n",
+            "5.187484920200005\n"
+          ]
+        }
+      ],
+      "source": [
+        "r = float(input(\"Enter the value of Radius : \"))\n",
+        "n = float(input(\"Enter the value of n : \"))\n",
+        "p = float(input(\"Enter the value of p : \"))\n",
+        "a = float(p * (1 + (r / 100))** n)\n",
+        "print(a)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "In a given string format operation, how will you print the given string.\n",
+        "\n",
+        "A = 10\n",
+        "\n",
+        "B = 20\n",
+        "\n",
+        "Str = \"There are {} students in the class, with {} who play at least one sport.\"\n"
+      ],
+      "metadata": {
+        "id": "7jMgd3gJI49g"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A = 10\n",
+        "B = 20\n",
+        "print(\"There are %d students in the class, with %d who play at least one sport\" %(A,B) )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PuYtnoCkWXNY",
+        "outputId": "ca332d3d-690a-443a-ad26-efef4ec8791a"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "There are 10 students in the class, with 20 who play at least one sport\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "d4YY6i2tXVPa"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "0W5uYo2pWW45"
+      }
+    }
+  ]
+}
